@@ -1,0 +1,22 @@
+{
+  "name": "deltacompta",
+  "version": "1.0.0",
+  "description": "Manage easily your accounting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoismari/deltaCompta.git"
+  },
+  "author": "François Mari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francoismari/deltaCompta/issues"
+  },
+  "homepage": "https://github.com/francoismari/deltaCompta#readme",
+  "dependencies": {
+    "xlsexport": "^1.5.2"
+  }
+}

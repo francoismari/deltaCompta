@@ -176,6 +176,9 @@ const addCPToList = (idOperation) => {
     document.getElementById(idOfTheElementInTheListForCP).setAttribute("onclick", "showEditModal(" + idOperation + ",'" + typeForAddingToListForCP + "')");
 }
 
+// Combiner les trois tableaux en un
+const arrayWithAllData = actifsArray.concat(passifsArray, capitauxPropresArray);
+
 // La trésorerie doit afficher 0 au début
 updateUserTresorerieText();
 
