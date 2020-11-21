@@ -1,43 +1,17 @@
 let actifsArray = [
-    {
+    { // Premier élement = trésorerie
         id: 2000,
         name: '',
         type: 'tresorerie',
         value: 0,
         hasToBeCounted: true,
         editable: false
-    },
-    {
-        id: 1234,
-        name: '',
-        type: 'test',
-        value: 500,
-        hasToBeCounted: false,
-        isEditable: true
     }
 ];
 
-let passifsArray = [
-    {
-        id: 0,
-        name: '',
-        type: 'tresorerie',
-        value: 0,
-        hasToBeCounted: true,
-        isEditable: true
-    }
-];
+let passifsArray = [];
 
-let capitauxPropresArray = [
-    {
-        id: 0,
-        name: '',
-        type: 'tresorerie',
-        value: 0,
-        hasToBeCounted: true,
-        isEditable: true
-    }
-];
+let capitauxPropresArray = [];
 
 function showEmpruntModalText () {
     selectedValue = document.getElementById('operationTypeSelector').value;
