@@ -16,7 +16,5 @@
     "url": "https://github.com/francoismari/deltaCompta/issues"
   },
   "homepage": "https://github.com/francoismari/deltaCompta#readme",
-  "dependencies": {
-    "xlsexport": "^1.5.2"
-  }
+  "dependencies": {}
 }
